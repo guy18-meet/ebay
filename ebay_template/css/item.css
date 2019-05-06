@@ -22,9 +22,9 @@ body { margin: 0; }
 .itemTitle * { margin: 0; padding: 0; color: #37474f; font-weight: normal; font-size: 20px; line-height: normal; }
 .ess-gallery .img-box { border: 1px solid #e6e6e6; background-color: #fff; }
 .img-holder { display: none; }
-.img-holder .imgBox { cursor: zoom-in; text-align: center; padding-bottom: 62.5%; overflow: hidden; background: #fff; display: block; position: relative; }
-.img-popup { background-color: #fff; bottom: 0; left: 0; margin: auto; position: absolute; right: 0; top: 0; width: 100%; }
-.col-md-6 .img-holder .imgBox { padding-bottom: 100%; }
+.img-holder .imgBox { text-align: center; overflow: hidden; background: #fff; display: block;}
+.img-popup { background-color: #fff; bottom: 0; left: 0; margin: auto; right: 0; top: 0; width: 100%; }
+.col-md-6 .img-holder .imgBox { }
 .col-md-6 > .thumb:first-child { margin-top: -15px; }
 .thumb { font-size: 0; margin-left: -7.5px; margin-right: -7.5px; text-align: center; }
 .thumb label { width: 33.3333%; padding: 0 7.5px; display: inline-block; margin-top: 15px; }
